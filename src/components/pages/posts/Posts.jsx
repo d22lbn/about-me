@@ -16,9 +16,9 @@ const Posts = (props) => {
         </div>
       </div>
       <div className={style.posts}>
-        {/*<div className={style.button__wrapper}>*/}
-        {/*  <button>Добавить</button>*/}
-        {/*</div>*/}
+        <div className={style.button__wrapper}>
+          <button>Добавить</button>
+        </div>
         {posts}
       </div>
     </main>

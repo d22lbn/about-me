@@ -18,6 +18,31 @@ body::-webkit-scrollbar {
   width: 0;
 }
 
+button {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  color: #834545;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid rgba(131, 69, 69, 0.16);
+  border-radius: 10px;
+  transition: all 0.15s ease;
+}
+button:hover {
+  background-color: #834545;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+a:hover {
+  color: #ece2e2;
+}
+
 .body__main {
   margin-top: 50px;
 }

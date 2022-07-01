@@ -54,17 +54,19 @@ $padding: calc(20px + (50 - 20) * (100vw - 320px) / (1200 - 320));
   }
 
   .posts {
-    margin-top: 30px;
+    margin-bottom: 10px;
 
     .button__wrapper {
       display: flex;
       justify-content: end;
+      height: 0;
+      //border: 1px solid red;
 
       button {
+        position: absolute;
+        transform: translateY(-100%);
+
         margin-right: 20px;
-        border: 2px solid $post-color;
-        border-radius: 10px;
-        padding: 10px;
       }
     }
   }
