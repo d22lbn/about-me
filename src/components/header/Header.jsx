@@ -28,7 +28,7 @@ const Header = (props) => {
       </nav>
 
       <div className={style.nav__mobile}>
-        <NavLink to={"/nav"}>
+        <NavLink to={"/nav-mobile"}>
           <span/>
         </NavLink>
       </div>
