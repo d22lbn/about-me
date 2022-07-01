@@ -61,12 +61,12 @@ $mobile: 450px;
         border-radius: 50px;
         margin: 0;
         padding: 0;
+        height: 2px;
       }
 
       &:before, &:after {
         content: '';
         left: 0;
-        height: 2.5px;
       }
 
       &:before {
@@ -78,7 +78,6 @@ $mobile: 450px;
       }
 
       span {
-        height: 2px;
         top: 50%;
         transform: translateY(-50%);
       }
