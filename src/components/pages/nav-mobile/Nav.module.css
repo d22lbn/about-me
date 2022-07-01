@@ -27,5 +27,8 @@
 .main .links a:last-child {
   margin-bottom: 0;
 }
+.main .links a:active {
+  color: red;
+}
 
 /*# sourceMappingURL=Nav.module.css.map */
