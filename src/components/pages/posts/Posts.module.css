@@ -1,5 +1,5 @@
 .main {
-  padding: 25px 50px 0 50px;
+  padding: 25px calc(20px + 30 * (100vw - 320px) / 880) 0 calc(20px + 30 * (100vw - 320px) / 880);
 }
 @media (max-width: 450px) {
   .main {
@@ -12,10 +12,10 @@
   flex-direction: column;
 }
 .main .profile .profile__img {
-  width: 180px;
-  height: 180px;
   border-radius: 1000px;
   overflow: hidden;
+  width: calc(120px + 60 * (100vw - 320px) / 880);
+  height: calc(120px + 60 * (100vw - 320px) / 880);
 }
 @media (max-width: 450px) {
   .main .profile .profile__img {

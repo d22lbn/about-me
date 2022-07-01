@@ -1,7 +1,7 @@
 .header {
   height: 50px;
   background-color: #834545;
-  padding: 0 50px;
+  padding: 0 calc(20px + 30 * (100vw - 320px) / 880);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,7 @@
 .header .nav a:first-child {
   margin-left: 0;
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .header .nav {
     display: none;
   }
@@ -39,7 +39,7 @@
 .header .nav__mobile {
   display: none;
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .header .nav__mobile {
     display: block;
     width: 20px;

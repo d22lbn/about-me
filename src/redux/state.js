@@ -1,4 +1,4 @@
-import ava from "./res/ava3.jpg"
+import ava from "./res/ava2.jpg"
 
 let state = {
   headerPage: {
