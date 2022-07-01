@@ -17,7 +17,7 @@ const Posts = (props) => {
       </div>
       <div className={style.posts}>
         <div className={style.button__wrapper}>
-          <button>Добавить</button>
+          <button></button>
         </div>
         {posts}
       </div>

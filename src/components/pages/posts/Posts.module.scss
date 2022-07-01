@@ -62,11 +62,40 @@ $padding: calc(20px + (50 - 20) * (100vw - 320px) / (1200 - 320));
       height: 0;
       //border: 1px solid red;
 
+      $btn-size: 40px;
+      $btn-size: calc(32px + (40 - 32) * (100vw - 320px) / (1200 - 320));
+      $cross-size: 60%;
+      $cross-width: 2.4px;
       button {
         position: absolute;
         transform: translateY(-100%);
-
         margin-right: 20px;
+        width: $btn-size;
+        height: $btn-size;
+        border-radius: 50%;
+
+        &:after, &:before {
+          content: '';
+          position: absolute;
+          border-radius: 100px;
+          background-color: #834545;
+        }
+
+        &:after {
+          height: $cross-size;
+          width: $cross-width;
+          left: calc(50% - #{$cross-width} / 2);
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &:before {
+          width: $cross-size;
+          height: $cross-width;
+          left: 50%;
+          transform: translateX(-50%);
+          top: calc(50% - #{$cross-width} / 2);
+        }
       }
     }
   }

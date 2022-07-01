@@ -24,18 +24,16 @@ body::-webkit-scrollbar {
 button {
   font-family: "Inter", serif;
   font-weight: 500;
-  color: #834545;
   cursor: pointer;
-  padding: 10px;
   border: 2px solid $post-color;
   border-radius: 10px;
 
   transition: all 0.15s ease;
 
   &:hover {
-    background-color: #834545;
-    border: 2px solid #FFFFFF;
-    color: #FFFFFF;
+    //background-color: #834545;
+    //border: 2px solid #FFFFFF;
+    //color: #FFFFFF;
   }
 }
 
@@ -46,6 +44,10 @@ a {
 
   &:hover {
     color: #ece2e2;
+  }
+
+  &:active {
+    background-color: rgba(0, 0, 0, 0);
   }
 }
 

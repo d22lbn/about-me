@@ -53,6 +53,29 @@
   position: absolute;
   transform: translateY(-100%);
   margin-right: 20px;
+  width: calc(32px + 8 * (100vw - 320px) / 880);
+  height: calc(32px + 8 * (100vw - 320px) / 880);
+  border-radius: 50%;
+}
+.main .posts .button__wrapper button:after, .main .posts .button__wrapper button:before {
+  content: "";
+  position: absolute;
+  border-radius: 100px;
+  background-color: #834545;
+}
+.main .posts .button__wrapper button:after {
+  height: 60%;
+  width: 2.4px;
+  left: calc(50% - 2.4px / 2);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main .posts .button__wrapper button:before {
+  width: 60%;
+  height: 2.4px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(50% - 2.4px / 2);
 }
 
 /*# sourceMappingURL=Posts.module.css.map */
