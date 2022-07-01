@@ -1,3 +1,29 @@
-
+.main {
+  display: none;
+  height: 0;
+  background-color: #834545;
+  transition: height 0.1s ease;
+}
+@media (max-width: 450px) {
+  .main {
+    display: block;
+    padding: 0 20px;
+    height: calc(100vh - 50px);
+  }
+}
+.main .links {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 10px;
+}
+.main .links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.main .links a:last-child {
+  margin-bottom: 0;
+}
 
 /*# sourceMappingURL=Nav.module.css.map */

@@ -13,7 +13,7 @@ const App = (props) => {
       <div className="body__main">
         <Routes>
           <Route path={"/"} element={<Posts state={props.state.postsPage}/>}/>
-          <Route path={"/nav"} element={<Nav navLinks={props.state.headerPage.headerLinks}/>}/>
+          <Route path={"/nav"} element={<Nav state={props.state.headerPage}/>}/>
         </Routes>
       </div>
 

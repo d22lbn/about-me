@@ -12,7 +12,6 @@ h1, h2, h3, h4, h5, h6, body {
 body {
   font-family: "Inter", serif;
   font-weight: 400;
-  min-height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -20,7 +19,7 @@ body::-webkit-scrollbar {
 }
 
 .body__main {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=App.css.map */

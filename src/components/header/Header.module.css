@@ -50,12 +50,14 @@
     background-color: #FFFFFF;
     position: absolute;
     width: 100%;
-    height: 2px;
     border-radius: 50px;
+    margin: 0;
+    padding: 0;
   }
   .header .nav__mobile:before, .header .nav__mobile:after {
     content: "";
     left: 0;
+    height: 2.5px;
   }
   .header .nav__mobile:before {
     top: 0;
@@ -64,6 +66,7 @@
     bottom: 0;
   }
   .header .nav__mobile span {
+    height: 2px;
     top: 50%;
     transform: translateY(-50%);
   }
