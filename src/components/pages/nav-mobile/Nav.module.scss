@@ -14,8 +14,6 @@ $mobile: 450px;
 
   background-color: #834545;
 
-  transition: height 0.1s ease;
-
   .links {
     display: flex;
     flex-direction: column;
@@ -26,6 +24,7 @@ $mobile: 450px;
       color: #FFFFFF;
       text-decoration: none;
       margin-bottom: 20px;
+      font-weight: 500;
       &:last-child {
         margin-bottom: 0;
       }

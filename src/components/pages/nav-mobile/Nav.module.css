@@ -2,7 +2,6 @@
   display: none;
   height: 0;
   background-color: #834545;
-  transition: height 0.1s ease;
 }
 @media (max-width: 450px) {
   .main {
@@ -23,6 +22,7 @@
   color: #FFFFFF;
   text-decoration: none;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 .main .links a:last-child {
   margin-bottom: 0;
