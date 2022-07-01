@@ -7,7 +7,8 @@ $mobile: 450px;
   @media (max-width: $mobile) {
     display: block;
     padding: 0 20px;
-    height: calc(100vh - 50px);
+    margin-top: 1px;
+    height: calc(100vh - 49px);
     position: fixed;
     width: 100%;
   }
@@ -30,7 +31,6 @@ $mobile: 450px;
       }
     }
 
-    outline: none;
     a:active {
       color: red;
     }
