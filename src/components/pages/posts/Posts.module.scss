@@ -1,0 +1,64 @@
+$post-color: rgba(131, 69, 69, 0.16);
+$mobile: 450px;
+
+.main {
+  padding: 0 50px;
+  @media (max-width: $mobile) {
+    padding: 0 20px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .profile__img {
+      width: 180px;
+      height: 180px;
+      border-radius: 1000px;
+      overflow: hidden;
+      @media (max-width: $mobile) {
+        width: 120px;
+        height: 120px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .profile__inf {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+
+      span {
+        margin-top: 10px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .posts {
+    margin-top: 30px;
+
+    .button__wrapper {
+      display: flex;
+      justify-content: end;
+
+      button {
+        margin-right: 20px;
+        border: 2px solid $post-color;
+        border-radius: 10px;
+        padding: 10px;
+      }
+    }
+  }
+}

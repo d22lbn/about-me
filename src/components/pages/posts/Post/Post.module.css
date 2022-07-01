@@ -1,0 +1,29 @@
+.post {
+  background-color: rgba(131, 69, 69, 0.16);
+  border-radius: 10px;
+  padding: 18px;
+  margin-top: 20px;
+}
+.post:first-child {
+  margin-top: 0;
+}
+.post .post__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.post .post__top .title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.post .post__top .date {
+  color: #484848;
+  font-size: 13px;
+}
+.post .text {
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 150%;
+}
+
+/*# sourceMappingURL=Post.module.css.map */

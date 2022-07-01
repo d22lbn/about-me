@@ -1,9 +1,23 @@
+import React from "react";
 import './App.css';
+import {Route, Routes} from "react-router-dom";
+import Header from "./components/header/Header";
+import Posts from "./components/pages/posts/Posts";
+import Nav from "./components/pages/nav/Nav";
 
-function App() {
+const App = (props) => {
   return (
     <div className="App">
-      Hello
+      <Header state={props.state.headerPage}/>
+
+      <div className="body__main">
+        <Routes>
+          <Route path={"/posts"} element={<Posts state={props.state.postsPage}/>}/>
+          <Route path={"/nav"} element={<Nav/>}/>
+        </Routes>
+      </div>
+
+
     </div>
   );
 }

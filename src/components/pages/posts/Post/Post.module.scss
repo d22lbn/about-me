@@ -1,0 +1,36 @@
+$post-color: rgba(131, 69, 69, 0.16);
+$mobile: 450px;
+
+
+.post {
+  background-color: $post-color;
+  border-radius: 10px;
+  padding: 18px;
+  margin-top: 20px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  .post__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    .title {
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    .date {
+      color: #484848;
+      font-size: 13px;
+    }
+  }
+
+  .text {
+    display: inline-block;
+    margin-top: 10px;
+    line-height: 150%;
+  }
+}

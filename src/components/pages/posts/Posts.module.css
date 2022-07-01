@@ -1,0 +1,58 @@
+.main {
+  padding: 0 50px;
+}
+@media (max-width: 450px) {
+  .main {
+    padding: 0 20px;
+  }
+}
+.main .profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .profile .profile__img {
+  width: 180px;
+  height: 180px;
+  border-radius: 1000px;
+  overflow: hidden;
+}
+@media (max-width: 450px) {
+  .main .profile .profile__img {
+    width: 120px;
+    height: 120px;
+  }
+}
+.main .profile .profile__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.main .profile .profile__inf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.main .profile .profile__inf span {
+  margin-top: 10px;
+}
+.main .profile .profile__inf span:first-child {
+  margin-top: 0;
+}
+.main .posts {
+  margin-top: 30px;
+}
+.main .posts .button__wrapper {
+  display: flex;
+  justify-content: end;
+}
+.main .posts .button__wrapper button {
+  margin-right: 20px;
+  border: 2px solid rgba(131, 69, 69, 0.16);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=Posts.module.css.map */
