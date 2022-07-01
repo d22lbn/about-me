@@ -5,7 +5,7 @@ const Education = (props) => {
 
   return (
     <main className={style.main}>
-      <h1>Учёба</h1>
+      <h1>Education</h1>
     </main>
   )
 }

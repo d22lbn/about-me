@@ -9,6 +9,8 @@
     display: block;
     padding: 0 20px;
     height: calc(100vh - 50px);
+    position: fixed;
+    width: 100%;
   }
 }
 .main .links {

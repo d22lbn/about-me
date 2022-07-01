@@ -5,7 +5,7 @@ const Sport = (props) => {
 
   return (
     <main className={style.main}>
-      <h1>Спорт</h1>
+      <h1>Sport</h1>
     </main>
   )
 }

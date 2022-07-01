@@ -5,7 +5,7 @@ const New = (props) => {
 
   return (
     <main className={style.main}>
-      <h1>Новое</h1>
+      <h1>New</h1>
     </main>
   )
 }

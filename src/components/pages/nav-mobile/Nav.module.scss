@@ -8,6 +8,8 @@ $mobile: 450px;
     display: block;
     padding: 0 20px;
     height: calc(100vh - 50px);
+    position: fixed;
+    width: 100%;
   }
 
   background-color: #834545;

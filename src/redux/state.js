@@ -3,54 +3,54 @@ import ava from "./res/ava3.jpg"
 let state = {
   headerPage: {
     selected: {
-      name: 'посты',
+      name: 'posts',
       link: '/'
     },
     headerLinks: [
       {
-        name: 'посты',
+        name: 'posts',
         link: '/'
       },
       {
-        name: 'учёба',
+        name: 'education',
         link: '/education'
       },
       {
-        name: 'работа',
+        name: 'work',
         link: '/work'
       },
       {
-        name: 'спорт',
+        name: 'sport',
         link: '/sport'
       },
       {
-        name: 'новое',
+        name: 'new',
         link: '/new'
       },
     ]
   },
   postsPage: {
     profile: {
-      name: 'Алексей Мачихин',
+      name: 'Ivan Ivanov',
       age: '20',
-      city: 'Казань',
+      city: 'Kazan',
       photo: ava,
     },
     posts: [
       {
-        title: 'Бла бла бла',
+        title: 'Bla Bla Bla',
         date: '02.07.2022',
-        text: 'Повседневная практика показывает, что социально-экономическое развитие представляет собой интересный эксперимент проверки форм воздействия. С учётом сложившейся международной обстановки, высокотехнологичная концепция общественного уклада предопределяет высокую востребованность распределения внутренних резервов и ресурсов. Как уже неоднократно упомянуто, элементы политического процесса лишь добавляют фракционных разногласий и в равной степени предоставлены сами себе.',
+        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
       },
       {
-        title: 'Думаешь?',
+        title: 'Bla Bla Bla',
         date: '02.07.2022',
-        text: 'Повседневная практика показывает, что социально-экономическое развитие представляет собой интересный эксперимент проверки форм воздействия. С учётом сложившейся международной обстановки, высокотехнологичная концепция общественного уклада предопределяет высокую востребованность распределения внутренних резервов и ресурсов. Как уже неоднократно упомянуто, элементы политического процесса лишь добавляют фракционных разногласий и в равной степени предоставлены сами себе.',
+        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
       },
       {
-        title: 'Бла бла бла',
+        title: 'Bla Bla Bla',
         date: '02.07.2022',
-        text: 'Повседневная практика показывает, что социально-экономическое развитие представляет собой интересный эксперимент проверки форм воздействия. С учётом сложившейся международной обстановки, высокотехнологичная концепция общественного уклада предопределяет высокую востребованность распределения внутренних резервов и ресурсов. Как уже неоднократно упомянуто, элементы политического процесса лишь добавляют фракционных разногласий и в равной степени предоставлены сами себе.',
+        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
       }
     ]
   }

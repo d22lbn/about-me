@@ -5,7 +5,7 @@ const Work = (props) => {
 
   return (
     <main className={style.main}>
-      <h1>Работа</h1>
+      <h1>Work</h1>
     </main>
   )
 }
