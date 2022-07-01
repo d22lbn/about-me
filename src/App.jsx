@@ -12,8 +12,8 @@ const App = (props) => {
 
       <div className="body__main">
         <Routes>
-          <Route path={"/posts"} element={<Posts state={props.state.postsPage}/>}/>
-          <Route path={"/nav"} element={<Nav/>}/>
+          <Route path={"/"} element={<Posts state={props.state.postsPage}/>}/>
+          <Route path={"/nav"} element={<Nav navLinks={props.state.headerPage.headerLinks}/>}/>
         </Routes>
       </div>
 

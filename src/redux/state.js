@@ -4,12 +4,12 @@ let state = {
   headerPage: {
     selected: {
       name: 'посты',
-      link: '/posts'
+      link: '/'
     },
     headerLinks: [
       {
         name: 'посты',
-        link: '/posts'
+        link: '/'
       },
       {
         name: 'учёба',
