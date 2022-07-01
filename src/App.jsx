@@ -1,10 +1,13 @@
 import React from "react";
 import './App.css';
 import {Route, Routes} from "react-router-dom";
+
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Posts from "./components/pages/posts/Posts";
+
 import Nav from "./components/pages/nav-mobile/Nav";
+
+import Posts from "./components/pages/posts/Posts";
 import Education from "./components/pages/education/Education";
 import Work from "./components/pages/work/Work";
 import Sport from "./components/pages/sport/Sport";
